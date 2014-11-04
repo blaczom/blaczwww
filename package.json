@@ -1,0 +1,26 @@
+{
+  "name": "blaczwww",
+  "version": "0.0.1",
+  "description": "www server",
+  "main": "index.js",
+  "dependencies":{
+    "express":"4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blaczom/blaczwww.git"
+  },
+  "bin" : { "blaczwww" : "./bin/blaczwww.cmd",
+    "_blaczwww" : "./bin/blaczwww"
+  } ,
+  "keywords": [
+    "www",
+    "http"
+  ],
+  "author": "blaczom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blaczom/blaczwww/issues"
+  },
+  "homepage": "https://github.com/blaczom/blaczwww"
+}
